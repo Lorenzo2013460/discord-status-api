@@ -1,6 +1,4 @@
 export default function handler(req, res) {
-  // Puoi cambiare lo stato in "offline"
-  const userStatus = "online";
-
+  const userStatus = "online"; // o "offline"
   res.status(200).json({ status: userStatus });
 }
