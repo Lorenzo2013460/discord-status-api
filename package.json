@@ -1,9 +1,7 @@
 {
   "name": "discord-status-api",
   "version": "1.0.0",
-  "main": "api/status.js",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel start"
+    "build": ""
   }
 }
